@@ -7,7 +7,7 @@
 <title>Pulina'sFashion</title>
 
 <link rel="stylesheet" href="index.css">
-<script src="index2.js"></script>
+<script src="index.js"></script>
 
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
 </head>
@@ -39,15 +39,25 @@
     <li><a href="index.html">Home</a></li>
     <li><a href="#page">About</a></li>
     <li><a href="index2.html">Shop</a></li>
-    <li><a href="index4.html">Contact</a></li>
+    <li class="dropdown">
+  <a href="#">Categories ▾</a>
+
+  <ul class="dropdown-menu">
+    <li><a href="#">Men</a></li>
+    <li><a href="#">Women</a></li>
+    <li><a href="#">Children</a></li>
+  </ul>
+</li>
+
+    <li><a href="contact.html">Contact</a></li>
  <div class="cart-icon" onclick="toggleCart()">🛒 <span id="cart-count">0</span></div>
 </nav>  
   
 </header>
 
 <section class="hero">
-<h1>New Fashion Collection</h1>
-<p>Style that defines you</p>
+<h1>Elevate Your Style</h1>
+<p>Discover the latest trends and elevate your fashion game with our curated collection.</p>
 <a href="index2.html" class="btn">Shop Now</a>
 </section>
 
@@ -118,7 +128,7 @@ and customer satisfaction worldwide.
 
 <div class="member">
 <h4>CEO</h4>
-<p>Founder of Elite Fashion</p>
+<p>Founder of Paulina's Fashion</p>
 </div>
 
 <div class="member">
@@ -142,52 +152,52 @@ and customer satisfaction worldwide.
 <div class="grid">
 
 <div class="card">
-<img src="images/ladies we.jpg">
+<img src="images/ladies we.jpg" alt="This is ladies wear">
 <h3>ladies tops</h3>
 <p>$45</p>
 </div>
 
 <div class="card">
-<img src="images/men shirt.jpg">
+ <img src="images/men shirt.jpg" alt="This is men shirt">
 <h3>Men shirts</h3>
 <p>$60</p>
 </div>
 
 <div class="card">
-<img src="images/pink dress.jpg" >
+<img src="images/pink dress.jpg" alt="this is pink dress">
 <h3>Ladies Gown</h3>
 <p>$70</p>
 </div>
 
 <div class="card">
-<img src="images/trousres.jpg">
+<img src="images/trousres.jpg" alt="this is trousers">
 <h3>Trousres</h3>
 <p>$70</p>
 </div>
 
 <div class="card">
-<img src="images/654f9db118bbdaa562b5829625c13094.jpg">
+  <img src="images/654f9db118bbdaa562b5829625c13094.jpg" alt="sneakers">
 <h3>Sneakers</h3>
 <p>$70</p>
 </div>
 
 
 <div class="card">
-<img src="images/women brown dress.jpg">
+ <img src="images/women brown dress.jpg" alt="office dress">
 <h3>Office Dress</h3>
 <p>$70</p>
 </div>
 
 
 <div class="card">
-<img src="images/dress.jpg">
+<img src="images/dress.jpg" alt="ladies gown">
 <h3>Ladies Gown</h3>
 <p>$70</p>
 </div>
 
 
 <div class="card">
-<img src="images/short.jpg">
+<img src="images/short.jpg" alt="shorts skirts">
 <h3>Short skirts</h3>
 <p>$70</p>
 </div>
@@ -195,10 +205,48 @@ and customer satisfaction worldwide.
 </div>
 </section>
 
-<footer>
-<p>© 2026 Paulina's Fashion</p>
-</footer>
+<footer class="footer">
+  <div class="footer-container">
 
+
+    <div class="footer-box">
+      <h2 class="logo">FASHION</h2>
+      <p>Modern fashion for bold and confident individuals.</p>
+    </div>
+
+  
+    <div class="footer-box">
+      <h3>Quick Links</h3>
+      <a href="index.html">Home</a>
+      <a href="index2.html">Shop</a>
+      <a href="#page">About</a>
+      <a href="contact.html">Contact</a>
+    </div>
+
+   
+    <div class="footer-box">
+      <h3>Support</h3>
+      <a href="#">FAQs</a>
+      <a href="#">Shipping</a>
+      <a href="#">Returns</a>
+      <a href="#">Privacy Policy</a>
+    </div>
+
+   
+    <div class="footer-box">
+      <h3>Contact</h3>
+      <p>Email: info@fashion.com</p>
+      <p>Phone: +233 53 014 4668</p>
+      <p>Location: Kumasi, Ghana</p>
+    </div>
+
+  </div>
+
+
+  <div class="footer-bottom">
+    <p>© 2026 Fashion Store | All Rights Reserved</p>
+  </div>
+</footer>
 
 
 </body>
