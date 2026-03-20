@@ -281,16 +281,16 @@ padding:30px;
 
 .card{
 background:white;
-padding:25px;
+padding:5px;
 border-radius:10px;
 text-align:center;
 transition:0.3s;
-max-width: 300px;
+
 }
 
 .card img{
 width:100%;
-height:400px;
+height:350px;
 object-fit:cover;
 border-radius:10px;
 }
