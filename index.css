@@ -68,6 +68,25 @@ header{
 }
 
 
+.search-box {
+  margin-left: 20px;
+  position: relative;
+  left: 10vw;
+  
+}
+
+.search-box input {
+  padding: 8px 12px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  outline: none;
+}
+
+.search-box input:focus {
+  border-color: black;
+}
+
+
 .navbar {
   background: none;
   color: white;
@@ -80,8 +99,8 @@ header{
 .logo img {
   font-size: 30px;
   font-weight: bold;
-   position: relative;
-  left: -20vw;
+  position: relative;
+  left: -10vw;
 }
 
 .back{
@@ -128,7 +147,7 @@ nav a:hover {
 .cart-icon{
 cursor:pointer;
 position: relative;
-left: 16vw;
+left: 6vw;
 
 }
 
@@ -250,10 +269,11 @@ border-radius:5px;
 }
 
 
+
+
 .grid{
 display:grid;
-
- grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
 gap:20px;
 padding:30px;
 }
@@ -271,6 +291,11 @@ width:100%;
 height:400px;
 object-fit:cover;
 border-radius:10px;
+}
+
+.card img:hover {
+  transform: scale(1.05);
+  transition: 0.3s;
 }
 
 .card:hover{

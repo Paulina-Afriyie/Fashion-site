@@ -39,4 +39,20 @@ total = 0;
 updateCart();
 }
 
+const searchInput = document.getElementById("searchInput");
+
+searchInput.addEventListener("keyup", function () {
+  const filter = searchInput.value.toLowerCase();
+  const products = document.querySelectorAll(".card");
+
+  products.forEach(product => {
+    const text = product.innerText.toLowerCase();
+
+    if (text.includes(filter)) {
+      product.style.display = "";
+    } else {
+      product.style.display = "none";
+    }
+  });
+});
 
