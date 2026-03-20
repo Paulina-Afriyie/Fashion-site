@@ -253,7 +253,24 @@ margin-top: 40px;
     font-size: 14px;
 }
 
+.social-media {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    
+}
 
+.social-media img {
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+    transition: 0.3s;
+    position: relative;
+    left: -6vw;
+    border-radius: 12px;
+     margin-top: -12px;
+}
  
 
 @media(max-width:768px){
@@ -295,10 +312,10 @@ header nav{
     top: 0;
     right: -100%;
     background: #111;
-    height: 100vh;
+    height: 40vh;
     width: 90%;
     flex-direction: column;
-    padding-top: 80px;
+    padding-top: 50px;
     transition: 0.4s;
     z-index: 999;
   }
@@ -312,7 +329,7 @@ header nav{
   }
 
   .nav-links li {
-    padding: 15px;
+    padding: 3px;
     text-align: center;
   }
 
