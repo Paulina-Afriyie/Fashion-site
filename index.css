@@ -583,12 +583,11 @@ left: 0;
 
 .member{
   padding: 50px;
-
-
-
 }
 
-
+.search-box{
+  display: none;
+}
 
 
 
