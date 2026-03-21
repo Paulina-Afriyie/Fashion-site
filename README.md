@@ -107,7 +107,7 @@ LOGO        NAVIGATION
           GOOGLE MAP
 ----------------------------------------
 
-      Contact Page
+      LOGIN Page
 
 ----------------------------------------
 |        IMAGE           |   FORM             |
